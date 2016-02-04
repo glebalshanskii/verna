@@ -1,0 +1,3868 @@
+[2016-02-03 23:52:28 +0000] [13955] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f92106f7d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f92106f7aa0>
+  pre_fork: <function pre_fork at 0x7f92106f7c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f92106f7938>
+  pre_exec: <function pre_exec at 0x7f92106fe398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f92106f7ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f92106fea28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f92106fe500>
+  post_request: <function post_request at 0x7f92106fe5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f92106fe0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f92106fe758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f92106f77d0>
+  worker_abort: <function worker_abort at 0x7f92106fe230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f92106fe8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-03 23:52:28 +0000] [13955] [INFO] Starting gunicorn 19.4.5
+[2016-02-03 23:52:28 +0000] [13955] [DEBUG] Arbiter booted
+[2016-02-03 23:52:28 +0000] [13955] [INFO] Listening at: http://127.0.0.1:8001 (13955)
+[2016-02-03 23:52:28 +0000] [13955] [INFO] Using worker: sync
+[2016-02-03 23:52:28 +0000] [13960] [INFO] Booting worker with pid: 13960
+[2016-02-03 23:52:28 +0000] [13955] [DEBUG] 1 workers
+[2016-02-03 23:52:40 +0000] [13960] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-03 23:52:47 +0000] [13960] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 01:12:48 +0000] [13955] [INFO] Handling signal: term
+[2016-02-04 01:12:48 +0000] [13960] [INFO] Worker exiting (pid: 13960)
+[2016-02-04 01:12:48 +0000] [13955] [INFO] Shutting down: Master
+[2016-02-04 01:12:48 +0000] [14620] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f1adb9a1d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f1adb9a1aa0>
+  pre_fork: <function pre_fork at 0x7f1adb9a1c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f1adb9a1938>
+  pre_exec: <function pre_exec at 0x7f1adb9a8398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f1adb9a1ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f1adb9a8a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f1adb9a8500>
+  post_request: <function post_request at 0x7f1adb9a85f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f1adb9a80c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f1adb9a8758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f1adb9a17d0>
+  worker_abort: <function worker_abort at 0x7f1adb9a8230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f1adb9a88c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 01:12:48 +0000] [14620] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 01:12:48 +0000] [14620] [DEBUG] Arbiter booted
+[2016-02-04 01:12:48 +0000] [14620] [INFO] Listening at: http://127.0.0.1:8001 (14620)
+[2016-02-04 01:12:48 +0000] [14620] [INFO] Using worker: sync
+[2016-02-04 01:12:48 +0000] [14625] [INFO] Booting worker with pid: 14625
+[2016-02-04 01:12:48 +0000] [14625] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+[2016-02-04 01:12:48 +0000] [14625] [INFO] Worker exiting (pid: 14625)
+[2016-02-04 01:12:48 +0000] [14620] [DEBUG] 1 workers
+[2016-02-04 01:12:48 +0000] [14620] [INFO] Shutting down: Master
+[2016-02-04 01:12:48 +0000] [14620] [INFO] Reason: Worker failed to boot.
+[2016-02-04 01:12:49 +0000] [14631] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f0b23509d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f0b23509aa0>
+  pre_fork: <function pre_fork at 0x7f0b23509c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f0b23509938>
+  pre_exec: <function pre_exec at 0x7f0b23510398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f0b23509ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f0b23510a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f0b23510500>
+  post_request: <function post_request at 0x7f0b235105f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f0b235100c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f0b23510758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f0b235097d0>
+  worker_abort: <function worker_abort at 0x7f0b23510230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f0b235108c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 01:12:49 +0000] [14631] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 01:12:49 +0000] [14631] [DEBUG] Arbiter booted
+[2016-02-04 01:12:49 +0000] [14631] [INFO] Listening at: http://127.0.0.1:8001 (14631)
+[2016-02-04 01:12:49 +0000] [14631] [INFO] Using worker: sync
+[2016-02-04 01:12:49 +0000] [14636] [INFO] Booting worker with pid: 14636
+[2016-02-04 01:12:49 +0000] [14636] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+[2016-02-04 01:12:49 +0000] [14636] [INFO] Worker exiting (pid: 14636)
+[2016-02-04 01:12:49 +0000] [14631] [DEBUG] 1 workers
+[2016-02-04 01:12:49 +0000] [14631] [INFO] Shutting down: Master
+[2016-02-04 01:12:49 +0000] [14631] [INFO] Reason: Worker failed to boot.
+[2016-02-04 01:12:49 +0000] [14641] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f816803ed70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f816803eaa0>
+  pre_fork: <function pre_fork at 0x7f816803ec08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f816803e938>
+  pre_exec: <function pre_exec at 0x7f8168045398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f816803eed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f8168045a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f8168045500>
+  post_request: <function post_request at 0x7f81680455f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f81680450c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f8168045758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f816803e7d0>
+  worker_abort: <function worker_abort at 0x7f8168045230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f81680458c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 01:12:49 +0000] [14641] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 01:12:49 +0000] [14641] [DEBUG] Arbiter booted
+[2016-02-04 01:12:49 +0000] [14641] [INFO] Listening at: http://127.0.0.1:8001 (14641)
+[2016-02-04 01:12:49 +0000] [14641] [INFO] Using worker: sync
+[2016-02-04 01:12:49 +0000] [14646] [INFO] Booting worker with pid: 14646
+[2016-02-04 01:12:49 +0000] [14646] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+[2016-02-04 01:12:49 +0000] [14646] [INFO] Worker exiting (pid: 14646)
+[2016-02-04 01:12:49 +0000] [14641] [INFO] Shutting down: Master
+[2016-02-04 01:12:49 +0000] [14641] [INFO] Reason: Worker failed to boot.
+[2016-02-04 01:12:50 +0000] [14651] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fcda3940d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fcda3940aa0>
+  pre_fork: <function pre_fork at 0x7fcda3940c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fcda3940938>
+  pre_exec: <function pre_exec at 0x7fcda3947398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fcda3940ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fcda3947a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fcda3947500>
+  post_request: <function post_request at 0x7fcda39475f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fcda39470c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fcda3947758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fcda39407d0>
+  worker_abort: <function worker_abort at 0x7fcda3947230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fcda39478c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 01:12:50 +0000] [14651] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 01:12:50 +0000] [14651] [DEBUG] Arbiter booted
+[2016-02-04 01:12:50 +0000] [14651] [INFO] Listening at: http://127.0.0.1:8001 (14651)
+[2016-02-04 01:12:50 +0000] [14651] [INFO] Using worker: sync
+[2016-02-04 01:12:50 +0000] [14656] [INFO] Booting worker with pid: 14656
+[2016-02-04 01:12:50 +0000] [14656] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+[2016-02-04 01:12:50 +0000] [14656] [INFO] Worker exiting (pid: 14656)
+[2016-02-04 01:12:50 +0000] [14651] [INFO] Shutting down: Master
+[2016-02-04 01:12:50 +0000] [14651] [INFO] Reason: Worker failed to boot.
+[2016-02-04 01:12:50 +0000] [14661] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7ff9544a0d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7ff9544a0aa0>
+  pre_fork: <function pre_fork at 0x7ff9544a0c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7ff9544a0938>
+  pre_exec: <function pre_exec at 0x7ff9544a7398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7ff9544a0ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7ff9544a7a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7ff9544a7500>
+  post_request: <function post_request at 0x7ff9544a75f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7ff9544a70c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7ff9544a7758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7ff9544a07d0>
+  worker_abort: <function worker_abort at 0x7ff9544a7230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7ff9544a78c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 01:12:50 +0000] [14661] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 01:12:50 +0000] [14661] [DEBUG] Arbiter booted
+[2016-02-04 01:12:50 +0000] [14661] [INFO] Listening at: http://127.0.0.1:8001 (14661)
+[2016-02-04 01:12:50 +0000] [14661] [INFO] Using worker: sync
+[2016-02-04 01:12:50 +0000] [14666] [INFO] Booting worker with pid: 14666
+[2016-02-04 01:12:50 +0000] [14666] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 15
+    clients = models.Client.query.filter(models.Client.telegram_id=message.from_user.id)
+SyntaxError: keyword can't be an expression
+[2016-02-04 01:12:50 +0000] [14666] [INFO] Worker exiting (pid: 14666)
+[2016-02-04 01:12:50 +0000] [14661] [INFO] Shutting down: Master
+[2016-02-04 01:12:50 +0000] [14661] [INFO] Reason: Worker failed to boot.
+[2016-02-04 01:23:21 +0000] [14783] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f2fe6cdcd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f2fe6cdcaa0>
+  pre_fork: <function pre_fork at 0x7f2fe6cdcc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f2fe6cdc938>
+  pre_exec: <function pre_exec at 0x7f2fe6ce3398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f2fe6cdced8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f2fe6ce3a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f2fe6ce3500>
+  post_request: <function post_request at 0x7f2fe6ce35f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f2fe6ce30c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f2fe6ce3758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f2fe6cdc7d0>
+  worker_abort: <function worker_abort at 0x7f2fe6ce3230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f2fe6ce38c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 01:23:21 +0000] [14783] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 01:23:21 +0000] [14783] [DEBUG] Arbiter booted
+[2016-02-04 01:23:21 +0000] [14783] [INFO] Listening at: http://127.0.0.1:8001 (14783)
+[2016-02-04 01:23:21 +0000] [14783] [INFO] Using worker: sync
+[2016-02-04 01:23:21 +0000] [14788] [INFO] Booting worker with pid: 14788
+[2016-02-04 01:23:21 +0000] [14783] [DEBUG] 1 workers
+[2016-02-04 01:23:33 +0000] [14788] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 01:23:47 +0000] [14788] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 01:30:31 +0000] [14788] [DEBUG] GET /
+[2016-02-04 02:25:09 +0000] [14788] [DEBUG] GET /wp-login.php
+[2016-02-04 02:25:09 +0000] [14788] [DEBUG] GET /administrator/index.php
+[2016-02-04 03:03:31 +0000] [14783] [INFO] Handling signal: term
+[2016-02-04 03:03:31 +0000] [14788] [INFO] Worker exiting (pid: 14788)
+[2016-02-04 03:03:31 +0000] [14783] [INFO] Shutting down: Master
+[2016-02-04 03:03:31 +0000] [15512] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f4c08dfed70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f4c08dfeaa0>
+  pre_fork: <function pre_fork at 0x7f4c08dfec08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f4c08dfe938>
+  pre_exec: <function pre_exec at 0x7f4c08e05398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f4c08dfeed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f4c08e05a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f4c08e05500>
+  post_request: <function post_request at 0x7f4c08e055f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f4c08e050c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f4c08e05758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f4c08dfe7d0>
+  worker_abort: <function worker_abort at 0x7f4c08e05230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f4c08e058c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 03:03:31 +0000] [15512] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 03:03:31 +0000] [15512] [DEBUG] Arbiter booted
+[2016-02-04 03:03:31 +0000] [15512] [INFO] Listening at: http://127.0.0.1:8001 (15512)
+[2016-02-04 03:03:31 +0000] [15512] [INFO] Using worker: sync
+[2016-02-04 03:03:31 +0000] [15518] [INFO] Booting worker with pid: 15518
+[2016-02-04 03:03:31 +0000] [15512] [DEBUG] 1 workers
+[2016-02-04 03:04:08 +0000] [15518] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 03:05:09 +0000] [15512] [INFO] Handling signal: term
+[2016-02-04 03:05:09 +0000] [15518] [INFO] Worker exiting (pid: 15518)
+[2016-02-04 03:05:09 +0000] [15512] [INFO] Shutting down: Master
+[2016-02-04 03:05:09 +0000] [15538] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f12e0a7ed70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f12e0a7eaa0>
+  pre_fork: <function pre_fork at 0x7f12e0a7ec08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f12e0a7e938>
+  pre_exec: <function pre_exec at 0x7f12e0a85398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f12e0a7eed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f12e0a85a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f12e0a85500>
+  post_request: <function post_request at 0x7f12e0a855f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f12e0a850c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f12e0a85758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f12e0a7e7d0>
+  worker_abort: <function worker_abort at 0x7f12e0a85230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f12e0a858c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 03:05:09 +0000] [15538] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 03:05:09 +0000] [15538] [DEBUG] Arbiter booted
+[2016-02-04 03:05:09 +0000] [15538] [INFO] Listening at: http://127.0.0.1:8001 (15538)
+[2016-02-04 03:05:09 +0000] [15538] [INFO] Using worker: sync
+[2016-02-04 03:05:09 +0000] [15544] [INFO] Booting worker with pid: 15544
+[2016-02-04 03:05:09 +0000] [15538] [DEBUG] 1 workers
+[2016-02-04 03:05:18 +0000] [15544] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 03:05:53 +0000] [15538] [INFO] Handling signal: term
+[2016-02-04 03:05:53 +0000] [15544] [INFO] Worker exiting (pid: 15544)
+[2016-02-04 03:05:53 +0000] [15538] [INFO] Shutting down: Master
+[2016-02-04 03:05:53 +0000] [15560] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f6995607d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f6995607aa0>
+  pre_fork: <function pre_fork at 0x7f6995607c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f6995607938>
+  pre_exec: <function pre_exec at 0x7f699560e398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f6995607ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f699560ea28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f699560e500>
+  post_request: <function post_request at 0x7f699560e5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f699560e0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f699560e758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f69956077d0>
+  worker_abort: <function worker_abort at 0x7f699560e230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f699560e8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 03:05:53 +0000] [15560] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 03:05:53 +0000] [15560] [DEBUG] Arbiter booted
+[2016-02-04 03:05:53 +0000] [15560] [INFO] Listening at: http://127.0.0.1:8001 (15560)
+[2016-02-04 03:05:53 +0000] [15560] [INFO] Using worker: sync
+[2016-02-04 03:05:53 +0000] [15566] [INFO] Booting worker with pid: 15566
+[2016-02-04 03:05:53 +0000] [15560] [DEBUG] 1 workers
+[2016-02-04 03:06:05 +0000] [15566] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 03:08:26 +0000] [15560] [INFO] Handling signal: term
+[2016-02-04 03:08:26 +0000] [15566] [INFO] Worker exiting (pid: 15566)
+[2016-02-04 03:08:26 +0000] [15560] [INFO] Shutting down: Master
+[2016-02-04 03:08:26 +0000] [15592] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f5360954d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f5360954aa0>
+  pre_fork: <function pre_fork at 0x7f5360954c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f5360954938>
+  pre_exec: <function pre_exec at 0x7f536095b398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f5360954ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f536095ba28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f536095b500>
+  post_request: <function post_request at 0x7f536095b5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f536095b0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f536095b758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f53609547d0>
+  worker_abort: <function worker_abort at 0x7f536095b230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f536095b8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 03:08:26 +0000] [15592] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 03:08:26 +0000] [15592] [DEBUG] Arbiter booted
+[2016-02-04 03:08:26 +0000] [15592] [INFO] Listening at: http://127.0.0.1:8001 (15592)
+[2016-02-04 03:08:26 +0000] [15592] [INFO] Using worker: sync
+[2016-02-04 03:08:26 +0000] [15597] [INFO] Booting worker with pid: 15597
+[2016-02-04 03:08:26 +0000] [15592] [DEBUG] 1 workers
+[2016-02-04 03:08:36 +0000] [15597] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 04:05:14 +0000] [15597] [DEBUG] GET /
+[2016-02-04 04:11:16 +0000] [15597] [DEBUG] GET /
+[2016-02-04 04:11:17 +0000] [15597] [DEBUG] GET /administrator/index.php
+[2016-02-04 04:31:20 +0000] [15592] [INFO] Handling signal: term
+[2016-02-04 04:31:20 +0000] [15597] [INFO] Worker exiting (pid: 15597)
+[2016-02-04 04:31:20 +0000] [15592] [INFO] Shutting down: Master
+[2016-02-04 04:31:21 +0000] [16259] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7faf369a7d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7faf369a7aa0>
+  pre_fork: <function pre_fork at 0x7faf369a7c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7faf369a7938>
+  pre_exec: <function pre_exec at 0x7faf369ae398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7faf369a7ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7faf369aea28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7faf369ae500>
+  post_request: <function post_request at 0x7faf369ae5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7faf369ae0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7faf369ae758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7faf369a77d0>
+  worker_abort: <function worker_abort at 0x7faf369ae230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7faf369ae8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:31:21 +0000] [16259] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:31:21 +0000] [16259] [DEBUG] Arbiter booted
+[2016-02-04 04:31:21 +0000] [16259] [INFO] Listening at: http://127.0.0.1:8001 (16259)
+[2016-02-04 04:31:21 +0000] [16259] [INFO] Using worker: sync
+[2016-02-04 04:31:21 +0000] [16265] [INFO] Booting worker with pid: 16265
+[2016-02-04 04:31:21 +0000] [16259] [DEBUG] 1 workers
+[2016-02-04 04:31:35 +0000] [16265] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 04:41:21 +0000] [16259] [INFO] Handling signal: term
+[2016-02-04 04:41:21 +0000] [16265] [INFO] Worker exiting (pid: 16265)
+[2016-02-04 04:41:21 +0000] [16259] [INFO] Shutting down: Master
+[2016-02-04 04:41:21 +0000] [16326] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fe5f2affd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fe5f2affaa0>
+  pre_fork: <function pre_fork at 0x7fe5f2affc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fe5f2aff938>
+  pre_exec: <function pre_exec at 0x7fe5f2b06398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fe5f2affed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fe5f2b06a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fe5f2b06500>
+  post_request: <function post_request at 0x7fe5f2b065f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fe5f2b060c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fe5f2b06758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fe5f2aff7d0>
+  worker_abort: <function worker_abort at 0x7fe5f2b06230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fe5f2b068c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:41:21 +0000] [16326] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:41:21 +0000] [16326] [DEBUG] Arbiter booted
+[2016-02-04 04:41:21 +0000] [16326] [INFO] Listening at: http://127.0.0.1:8001 (16326)
+[2016-02-04 04:41:21 +0000] [16326] [INFO] Using worker: sync
+[2016-02-04 04:41:21 +0000] [16331] [INFO] Booting worker with pid: 16331
+[2016-02-04 04:41:21 +0000] [16326] [DEBUG] 1 workers
+[2016-02-04 04:41:29 +0000] [16331] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 04:47:12 +0000] [16326] [INFO] Handling signal: term
+[2016-02-04 04:47:12 +0000] [16331] [INFO] Worker exiting (pid: 16331)
+[2016-02-04 04:47:12 +0000] [16326] [INFO] Shutting down: Master
+[2016-02-04 04:47:12 +0000] [16372] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f750dc89d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f750dc89aa0>
+  pre_fork: <function pre_fork at 0x7f750dc89c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f750dc89938>
+  pre_exec: <function pre_exec at 0x7f750dc90398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f750dc89ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f750dc90a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f750dc90500>
+  post_request: <function post_request at 0x7f750dc905f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f750dc900c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f750dc90758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f750dc897d0>
+  worker_abort: <function worker_abort at 0x7f750dc90230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f750dc908c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:47:12 +0000] [16372] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:47:12 +0000] [16372] [DEBUG] Arbiter booted
+[2016-02-04 04:47:12 +0000] [16372] [INFO] Listening at: http://127.0.0.1:8001 (16372)
+[2016-02-04 04:47:12 +0000] [16372] [INFO] Using worker: sync
+[2016-02-04 04:47:12 +0000] [16378] [INFO] Booting worker with pid: 16378
+[2016-02-04 04:47:12 +0000] [16378] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+[2016-02-04 04:47:12 +0000] [16378] [INFO] Worker exiting (pid: 16378)
+[2016-02-04 04:47:12 +0000] [16372] [DEBUG] 1 workers
+[2016-02-04 04:47:12 +0000] [16372] [INFO] Shutting down: Master
+[2016-02-04 04:47:12 +0000] [16372] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:47:13 +0000] [16384] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f105e55cd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f105e55caa0>
+  pre_fork: <function pre_fork at 0x7f105e55cc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f105e55c938>
+  pre_exec: <function pre_exec at 0x7f105e563398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f105e55ced8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f105e563a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f105e563500>
+  post_request: <function post_request at 0x7f105e5635f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f105e5630c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f105e563758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f105e55c7d0>
+  worker_abort: <function worker_abort at 0x7f105e563230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f105e5638c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:47:13 +0000] [16384] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:47:13 +0000] [16384] [DEBUG] Arbiter booted
+[2016-02-04 04:47:13 +0000] [16384] [INFO] Listening at: http://127.0.0.1:8001 (16384)
+[2016-02-04 04:47:13 +0000] [16384] [INFO] Using worker: sync
+[2016-02-04 04:47:13 +0000] [16389] [INFO] Booting worker with pid: 16389
+[2016-02-04 04:47:13 +0000] [16389] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+[2016-02-04 04:47:13 +0000] [16389] [INFO] Worker exiting (pid: 16389)
+[2016-02-04 04:47:13 +0000] [16384] [INFO] Shutting down: Master
+[2016-02-04 04:47:13 +0000] [16384] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:47:13 +0000] [16394] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7feb62df9d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7feb62df9aa0>
+  pre_fork: <function pre_fork at 0x7feb62df9c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7feb62df9938>
+  pre_exec: <function pre_exec at 0x7feb62e00398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7feb62df9ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7feb62e00a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7feb62e00500>
+  post_request: <function post_request at 0x7feb62e005f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7feb62e000c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7feb62e00758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7feb62df97d0>
+  worker_abort: <function worker_abort at 0x7feb62e00230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7feb62e008c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:47:13 +0000] [16394] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:47:13 +0000] [16394] [DEBUG] Arbiter booted
+[2016-02-04 04:47:13 +0000] [16394] [INFO] Listening at: http://127.0.0.1:8001 (16394)
+[2016-02-04 04:47:13 +0000] [16394] [INFO] Using worker: sync
+[2016-02-04 04:47:13 +0000] [16399] [INFO] Booting worker with pid: 16399
+[2016-02-04 04:47:13 +0000] [16399] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+[2016-02-04 04:47:13 +0000] [16399] [INFO] Worker exiting (pid: 16399)
+[2016-02-04 04:47:13 +0000] [16394] [INFO] Shutting down: Master
+[2016-02-04 04:47:13 +0000] [16394] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:47:14 +0000] [16404] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fa7b3562d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fa7b3562aa0>
+  pre_fork: <function pre_fork at 0x7fa7b3562c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fa7b3562938>
+  pre_exec: <function pre_exec at 0x7fa7b3569398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fa7b3562ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fa7b3569a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fa7b3569500>
+  post_request: <function post_request at 0x7fa7b35695f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fa7b35690c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fa7b3569758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fa7b35627d0>
+  worker_abort: <function worker_abort at 0x7fa7b3569230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fa7b35698c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:47:14 +0000] [16404] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:47:14 +0000] [16404] [DEBUG] Arbiter booted
+[2016-02-04 04:47:14 +0000] [16404] [INFO] Listening at: http://127.0.0.1:8001 (16404)
+[2016-02-04 04:47:14 +0000] [16404] [INFO] Using worker: sync
+[2016-02-04 04:47:14 +0000] [16409] [INFO] Booting worker with pid: 16409
+[2016-02-04 04:47:14 +0000] [16404] [DEBUG] 1 workers
+[2016-02-04 04:47:14 +0000] [16409] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+[2016-02-04 04:47:14 +0000] [16409] [INFO] Worker exiting (pid: 16409)
+[2016-02-04 04:47:14 +0000] [16404] [INFO] Shutting down: Master
+[2016-02-04 04:47:14 +0000] [16404] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:47:14 +0000] [16414] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fa11eabad70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fa11eabaaa0>
+  pre_fork: <function pre_fork at 0x7fa11eabac08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fa11eaba938>
+  pre_exec: <function pre_exec at 0x7fa11eac1398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fa11eabaed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fa11eac1a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fa11eac1500>
+  post_request: <function post_request at 0x7fa11eac15f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fa11eac10c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fa11eac1758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fa11eaba7d0>
+  worker_abort: <function worker_abort at 0x7fa11eac1230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fa11eac18c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:47:14 +0000] [16414] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:47:14 +0000] [16414] [DEBUG] Arbiter booted
+[2016-02-04 04:47:14 +0000] [16414] [INFO] Listening at: http://127.0.0.1:8001 (16414)
+[2016-02-04 04:47:14 +0000] [16414] [INFO] Using worker: sync
+[2016-02-04 04:47:14 +0000] [16419] [INFO] Booting worker with pid: 16419
+[2016-02-04 04:47:14 +0000] [16419] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 22
+    if True
+          ^
+SyntaxError: invalid syntax
+[2016-02-04 04:47:14 +0000] [16419] [INFO] Worker exiting (pid: 16419)
+[2016-02-04 04:47:14 +0000] [16414] [INFO] Shutting down: Master
+[2016-02-04 04:47:14 +0000] [16414] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:47:34 +0000] [16433] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fa0c39bed70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fa0c39beaa0>
+  pre_fork: <function pre_fork at 0x7fa0c39bec08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fa0c39be938>
+  pre_exec: <function pre_exec at 0x7fa0c39c5398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fa0c39beed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fa0c39c5a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fa0c39c5500>
+  post_request: <function post_request at 0x7fa0c39c55f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fa0c39c50c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fa0c39c5758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fa0c39be7d0>
+  worker_abort: <function worker_abort at 0x7fa0c39c5230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fa0c39c58c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:47:34 +0000] [16433] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:47:34 +0000] [16433] [DEBUG] Arbiter booted
+[2016-02-04 04:47:34 +0000] [16433] [INFO] Listening at: http://127.0.0.1:8001 (16433)
+[2016-02-04 04:47:34 +0000] [16433] [INFO] Using worker: sync
+[2016-02-04 04:47:34 +0000] [16438] [INFO] Booting worker with pid: 16438
+[2016-02-04 04:47:34 +0000] [16433] [DEBUG] 1 workers
+[2016-02-04 04:47:43 +0000] [16438] [DEBUG] POST /196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/
+[2016-02-04 04:48:55 +0000] [16433] [INFO] Handling signal: term
+[2016-02-04 04:48:55 +0000] [16438] [INFO] Worker exiting (pid: 16438)
+[2016-02-04 04:48:55 +0000] [16433] [INFO] Shutting down: Master
+[2016-02-04 04:48:55 +0000] [16456] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f9cb772fd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f9cb772faa0>
+  pre_fork: <function pre_fork at 0x7f9cb772fc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f9cb772f938>
+  pre_exec: <function pre_exec at 0x7f9cb7736398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f9cb772fed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f9cb7736a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f9cb7736500>
+  post_request: <function post_request at 0x7f9cb77365f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f9cb77360c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f9cb7736758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f9cb772f7d0>
+  worker_abort: <function worker_abort at 0x7f9cb7736230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f9cb77368c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:48:55 +0000] [16456] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:48:55 +0000] [16456] [DEBUG] Arbiter booted
+[2016-02-04 04:48:55 +0000] [16456] [INFO] Listening at: http://127.0.0.1:8001 (16456)
+[2016-02-04 04:48:55 +0000] [16456] [INFO] Using worker: sync
+[2016-02-04 04:48:55 +0000] [16462] [INFO] Booting worker with pid: 16462
+[2016-02-04 04:48:55 +0000] [16456] [DEBUG] 1 workers
+[2016-02-04 04:48:55 +0000] [16462] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:48:55 +0000] [16462] [INFO] Worker exiting (pid: 16462)
+[2016-02-04 04:48:55 +0000] [16456] [INFO] Shutting down: Master
+[2016-02-04 04:48:55 +0000] [16456] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:48:55 +0000] [16471] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fe48944dd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fe48944daa0>
+  pre_fork: <function pre_fork at 0x7fe48944dc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fe48944d938>
+  pre_exec: <function pre_exec at 0x7fe489454398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fe48944ded8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fe489454a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fe489454500>
+  post_request: <function post_request at 0x7fe4894545f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fe4894540c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fe489454758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fe48944d7d0>
+  worker_abort: <function worker_abort at 0x7fe489454230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fe4894548c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:48:55 +0000] [16471] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:48:55 +0000] [16471] [DEBUG] Arbiter booted
+[2016-02-04 04:48:55 +0000] [16471] [INFO] Listening at: http://127.0.0.1:8001 (16471)
+[2016-02-04 04:48:55 +0000] [16471] [INFO] Using worker: sync
+[2016-02-04 04:48:55 +0000] [16476] [INFO] Booting worker with pid: 16476
+[2016-02-04 04:48:56 +0000] [16471] [DEBUG] 1 workers
+[2016-02-04 04:48:56 +0000] [16476] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:48:56 +0000] [16476] [INFO] Worker exiting (pid: 16476)
+[2016-02-04 04:48:56 +0000] [16471] [INFO] Shutting down: Master
+[2016-02-04 04:48:56 +0000] [16471] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:48:56 +0000] [16485] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f2608159d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f2608159aa0>
+  pre_fork: <function pre_fork at 0x7f2608159c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f2608159938>
+  pre_exec: <function pre_exec at 0x7f2608160398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f2608159ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f2608160a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f2608160500>
+  post_request: <function post_request at 0x7f26081605f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f26081600c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f2608160758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f26081597d0>
+  worker_abort: <function worker_abort at 0x7f2608160230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f26081608c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:48:56 +0000] [16485] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:48:56 +0000] [16485] [DEBUG] Arbiter booted
+[2016-02-04 04:48:56 +0000] [16485] [INFO] Listening at: http://127.0.0.1:8001 (16485)
+[2016-02-04 04:48:56 +0000] [16485] [INFO] Using worker: sync
+[2016-02-04 04:48:56 +0000] [16490] [INFO] Booting worker with pid: 16490
+[2016-02-04 04:48:56 +0000] [16485] [DEBUG] 1 workers
+[2016-02-04 04:48:56 +0000] [16490] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:48:56 +0000] [16490] [INFO] Worker exiting (pid: 16490)
+[2016-02-04 04:48:57 +0000] [16485] [INFO] Shutting down: Master
+[2016-02-04 04:48:57 +0000] [16485] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:48:57 +0000] [16501] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f12ca731d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f12ca731aa0>
+  pre_fork: <function pre_fork at 0x7f12ca731c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f12ca731938>
+  pre_exec: <function pre_exec at 0x7f12ca738398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f12ca731ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f12ca738a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f12ca738500>
+  post_request: <function post_request at 0x7f12ca7385f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f12ca7380c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f12ca738758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f12ca7317d0>
+  worker_abort: <function worker_abort at 0x7f12ca738230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f12ca7388c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:48:57 +0000] [16501] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:48:57 +0000] [16501] [DEBUG] Arbiter booted
+[2016-02-04 04:48:57 +0000] [16501] [INFO] Listening at: http://127.0.0.1:8001 (16501)
+[2016-02-04 04:48:57 +0000] [16501] [INFO] Using worker: sync
+[2016-02-04 04:48:57 +0000] [16506] [INFO] Booting worker with pid: 16506
+[2016-02-04 04:48:57 +0000] [16501] [DEBUG] 1 workers
+[2016-02-04 04:48:57 +0000] [16506] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:48:57 +0000] [16506] [INFO] Worker exiting (pid: 16506)
+[2016-02-04 04:48:57 +0000] [16501] [INFO] Shutting down: Master
+[2016-02-04 04:48:57 +0000] [16501] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:48:58 +0000] [16515] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f54e892bd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f54e892baa0>
+  pre_fork: <function pre_fork at 0x7f54e892bc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f54e892b938>
+  pre_exec: <function pre_exec at 0x7f54e8932398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f54e892bed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f54e8932a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f54e8932500>
+  post_request: <function post_request at 0x7f54e89325f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f54e89320c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f54e8932758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f54e892b7d0>
+  worker_abort: <function worker_abort at 0x7f54e8932230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f54e89328c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:48:58 +0000] [16515] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:48:58 +0000] [16515] [DEBUG] Arbiter booted
+[2016-02-04 04:48:58 +0000] [16515] [INFO] Listening at: http://127.0.0.1:8001 (16515)
+[2016-02-04 04:48:58 +0000] [16515] [INFO] Using worker: sync
+[2016-02-04 04:48:58 +0000] [16520] [INFO] Booting worker with pid: 16520
+[2016-02-04 04:48:58 +0000] [16515] [DEBUG] 1 workers
+[2016-02-04 04:48:58 +0000] [16520] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:48:58 +0000] [16520] [INFO] Worker exiting (pid: 16520)
+[2016-02-04 04:48:58 +0000] [16515] [INFO] Shutting down: Master
+[2016-02-04 04:48:58 +0000] [16515] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:55:22 +0000] [16582] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fbd1fc06d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fbd1fc06aa0>
+  pre_fork: <function pre_fork at 0x7fbd1fc06c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fbd1fc06938>
+  pre_exec: <function pre_exec at 0x7fbd1fc0d398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fbd1fc06ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fbd1fc0da28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fbd1fc0d500>
+  post_request: <function post_request at 0x7fbd1fc0d5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fbd1fc0d0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fbd1fc0d758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fbd1fc067d0>
+  worker_abort: <function worker_abort at 0x7fbd1fc0d230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fbd1fc0d8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:55:22 +0000] [16582] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:55:22 +0000] [16582] [DEBUG] Arbiter booted
+[2016-02-04 04:55:22 +0000] [16582] [INFO] Listening at: http://127.0.0.1:8001 (16582)
+[2016-02-04 04:55:22 +0000] [16582] [INFO] Using worker: sync
+[2016-02-04 04:55:22 +0000] [16582] [DEBUG] 1 workers
+[2016-02-04 04:55:22 +0000] [16587] [INFO] Booting worker with pid: 16587
+[2016-02-04 04:55:23 +0000] [16587] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:55:23 +0000] [16587] [INFO] Worker exiting (pid: 16587)
+[2016-02-04 04:55:23 +0000] [16582] [INFO] Shutting down: Master
+[2016-02-04 04:55:23 +0000] [16582] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:55:23 +0000] [16597] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fc771a14d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fc771a14aa0>
+  pre_fork: <function pre_fork at 0x7fc771a14c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fc771a14938>
+  pre_exec: <function pre_exec at 0x7fc771a1b398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fc771a14ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fc771a1ba28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fc771a1b500>
+  post_request: <function post_request at 0x7fc771a1b5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fc771a1b0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fc771a1b758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fc771a147d0>
+  worker_abort: <function worker_abort at 0x7fc771a1b230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fc771a1b8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:55:23 +0000] [16597] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:55:23 +0000] [16597] [DEBUG] Arbiter booted
+[2016-02-04 04:55:23 +0000] [16597] [INFO] Listening at: http://127.0.0.1:8001 (16597)
+[2016-02-04 04:55:23 +0000] [16597] [INFO] Using worker: sync
+[2016-02-04 04:55:23 +0000] [16604] [INFO] Booting worker with pid: 16604
+[2016-02-04 04:55:23 +0000] [16597] [DEBUG] 1 workers
+[2016-02-04 04:55:23 +0000] [16604] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:55:23 +0000] [16604] [INFO] Worker exiting (pid: 16604)
+[2016-02-04 04:55:23 +0000] [16597] [INFO] Shutting down: Master
+[2016-02-04 04:55:23 +0000] [16597] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:55:24 +0000] [16614] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fbc3e915d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fbc3e915aa0>
+  pre_fork: <function pre_fork at 0x7fbc3e915c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fbc3e915938>
+  pre_exec: <function pre_exec at 0x7fbc3e91c398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fbc3e915ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fbc3e91ca28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fbc3e91c500>
+  post_request: <function post_request at 0x7fbc3e91c5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fbc3e91c0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fbc3e91c758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fbc3e9157d0>
+  worker_abort: <function worker_abort at 0x7fbc3e91c230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fbc3e91c8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:55:24 +0000] [16614] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:55:24 +0000] [16614] [DEBUG] Arbiter booted
+[2016-02-04 04:55:24 +0000] [16614] [INFO] Listening at: http://127.0.0.1:8001 (16614)
+[2016-02-04 04:55:24 +0000] [16614] [INFO] Using worker: sync
+[2016-02-04 04:55:24 +0000] [16619] [INFO] Booting worker with pid: 16619
+[2016-02-04 04:55:24 +0000] [16614] [DEBUG] 1 workers
+[2016-02-04 04:55:24 +0000] [16619] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:55:24 +0000] [16619] [INFO] Worker exiting (pid: 16619)
+[2016-02-04 04:55:24 +0000] [16614] [INFO] Shutting down: Master
+[2016-02-04 04:55:24 +0000] [16614] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:55:24 +0000] [16628] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7ff349a94d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7ff349a94aa0>
+  pre_fork: <function pre_fork at 0x7ff349a94c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7ff349a94938>
+  pre_exec: <function pre_exec at 0x7ff349a9b398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7ff349a94ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7ff349a9ba28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7ff349a9b500>
+  post_request: <function post_request at 0x7ff349a9b5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7ff349a9b0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7ff349a9b758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7ff349a947d0>
+  worker_abort: <function worker_abort at 0x7ff349a9b230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7ff349a9b8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:55:24 +0000] [16628] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:55:24 +0000] [16628] [DEBUG] Arbiter booted
+[2016-02-04 04:55:24 +0000] [16628] [INFO] Listening at: http://127.0.0.1:8001 (16628)
+[2016-02-04 04:55:24 +0000] [16628] [INFO] Using worker: sync
+[2016-02-04 04:55:24 +0000] [16635] [INFO] Booting worker with pid: 16635
+[2016-02-04 04:55:25 +0000] [16628] [DEBUG] 1 workers
+[2016-02-04 04:55:25 +0000] [16635] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:55:25 +0000] [16635] [INFO] Worker exiting (pid: 16635)
+[2016-02-04 04:55:25 +0000] [16628] [INFO] Shutting down: Master
+[2016-02-04 04:55:25 +0000] [16628] [INFO] Reason: Worker failed to boot.
+[2016-02-04 04:55:25 +0000] [16644] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7fc292f2fd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7fc292f2faa0>
+  pre_fork: <function pre_fork at 0x7fc292f2fc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7fc292f2f938>
+  pre_exec: <function pre_exec at 0x7fc292f36398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7fc292f2fed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7fc292f36a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7fc292f36500>
+  post_request: <function post_request at 0x7fc292f365f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7fc292f360c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7fc292f36758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7fc292f2f7d0>
+  worker_abort: <function worker_abort at 0x7fc292f36230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7fc292f368c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 04:55:25 +0000] [16644] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 04:55:25 +0000] [16644] [DEBUG] Arbiter booted
+[2016-02-04 04:55:25 +0000] [16644] [INFO] Listening at: http://127.0.0.1:8001 (16644)
+[2016-02-04 04:55:25 +0000] [16644] [INFO] Using worker: sync
+[2016-02-04 04:55:25 +0000] [16649] [INFO] Booting worker with pid: 16649
+[2016-02-04 04:55:25 +0000] [16644] [DEBUG] 1 workers
+[2016-02-04 04:55:25 +0000] [16649] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 04:55:25 +0000] [16649] [INFO] Worker exiting (pid: 16649)
+[2016-02-04 04:55:26 +0000] [16644] [INFO] Shutting down: Master
+[2016-02-04 04:55:26 +0000] [16644] [INFO] Reason: Worker failed to boot.
+[2016-02-04 05:25:27 +0000] [17003] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f6e419d5d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f6e419d5aa0>
+  pre_fork: <function pre_fork at 0x7f6e419d5c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f6e419d5938>
+  pre_exec: <function pre_exec at 0x7f6e419dc398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f6e419d5ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f6e419dca28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f6e419dc500>
+  post_request: <function post_request at 0x7f6e419dc5f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f6e419dc0c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f6e419dc758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f6e419d57d0>
+  worker_abort: <function worker_abort at 0x7f6e419dc230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f6e419dc8c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 05:25:27 +0000] [17003] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 05:25:27 +0000] [17003] [DEBUG] Arbiter booted
+[2016-02-04 05:25:27 +0000] [17003] [INFO] Listening at: http://127.0.0.1:8001 (17003)
+[2016-02-04 05:25:27 +0000] [17003] [INFO] Using worker: sync
+[2016-02-04 05:25:27 +0000] [17008] [INFO] Booting worker with pid: 17008
+[2016-02-04 05:25:27 +0000] [17003] [DEBUG] 1 workers
+[2016-02-04 05:25:27 +0000] [17008] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 05:25:27 +0000] [17008] [INFO] Worker exiting (pid: 17008)
+[2016-02-04 05:25:27 +0000] [17003] [INFO] Shutting down: Master
+[2016-02-04 05:25:27 +0000] [17003] [INFO] Reason: Worker failed to boot.
+[2016-02-04 05:25:27 +0000] [17019] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7efc27342d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7efc27342aa0>
+  pre_fork: <function pre_fork at 0x7efc27342c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7efc27342938>
+  pre_exec: <function pre_exec at 0x7efc27349398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7efc27342ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7efc27349a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7efc27349500>
+  post_request: <function post_request at 0x7efc273495f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7efc273490c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7efc27349758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7efc273427d0>
+  worker_abort: <function worker_abort at 0x7efc27349230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7efc273498c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 05:25:27 +0000] [17019] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 05:25:27 +0000] [17019] [DEBUG] Arbiter booted
+[2016-02-04 05:25:27 +0000] [17019] [INFO] Listening at: http://127.0.0.1:8001 (17019)
+[2016-02-04 05:25:27 +0000] [17019] [INFO] Using worker: sync
+[2016-02-04 05:25:27 +0000] [17024] [INFO] Booting worker with pid: 17024
+[2016-02-04 05:25:27 +0000] [17019] [DEBUG] 1 workers
+[2016-02-04 05:25:28 +0000] [17024] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 05:25:28 +0000] [17024] [INFO] Worker exiting (pid: 17024)
+[2016-02-04 05:25:28 +0000] [17019] [INFO] Shutting down: Master
+[2016-02-04 05:25:28 +0000] [17019] [INFO] Reason: Worker failed to boot.
+[2016-02-04 05:25:28 +0000] [17033] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f7e1f11cd70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f7e1f11caa0>
+  pre_fork: <function pre_fork at 0x7f7e1f11cc08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f7e1f11c938>
+  pre_exec: <function pre_exec at 0x7f7e1f123398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f7e1f11ced8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f7e1f123a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f7e1f123500>
+  post_request: <function post_request at 0x7f7e1f1235f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f7e1f1230c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f7e1f123758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f7e1f11c7d0>
+  worker_abort: <function worker_abort at 0x7f7e1f123230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f7e1f1238c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 05:25:28 +0000] [17033] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 05:25:28 +0000] [17033] [DEBUG] Arbiter booted
+[2016-02-04 05:25:28 +0000] [17033] [INFO] Listening at: http://127.0.0.1:8001 (17033)
+[2016-02-04 05:25:28 +0000] [17033] [INFO] Using worker: sync
+[2016-02-04 05:25:28 +0000] [17038] [INFO] Booting worker with pid: 17038
+[2016-02-04 05:25:28 +0000] [17033] [DEBUG] 1 workers
+[2016-02-04 05:25:28 +0000] [17038] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 05:25:28 +0000] [17038] [INFO] Worker exiting (pid: 17038)
+[2016-02-04 05:25:28 +0000] [17033] [INFO] Shutting down: Master
+[2016-02-04 05:25:28 +0000] [17033] [INFO] Reason: Worker failed to boot.
+[2016-02-04 05:25:29 +0000] [17049] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f89b4cb1d70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f89b4cb1aa0>
+  pre_fork: <function pre_fork at 0x7f89b4cb1c08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f89b4cb1938>
+  pre_exec: <function pre_exec at 0x7f89b4cb8398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f89b4cb1ed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f89b4cb8a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f89b4cb8500>
+  post_request: <function post_request at 0x7f89b4cb85f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f89b4cb80c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f89b4cb8758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f89b4cb17d0>
+  worker_abort: <function worker_abort at 0x7f89b4cb8230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f89b4cb88c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 05:25:29 +0000] [17049] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 05:25:29 +0000] [17049] [DEBUG] Arbiter booted
+[2016-02-04 05:25:29 +0000] [17049] [INFO] Listening at: http://127.0.0.1:8001 (17049)
+[2016-02-04 05:25:29 +0000] [17049] [INFO] Using worker: sync
+[2016-02-04 05:25:29 +0000] [17054] [INFO] Booting worker with pid: 17054
+[2016-02-04 05:25:29 +0000] [17049] [DEBUG] 1 workers
+[2016-02-04 05:25:29 +0000] [17054] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 05:25:29 +0000] [17054] [INFO] Worker exiting (pid: 17054)
+[2016-02-04 05:25:29 +0000] [17049] [INFO] Shutting down: Master
+[2016-02-04 05:25:29 +0000] [17049] [INFO] Reason: Worker failed to boot.
+[2016-02-04 05:25:30 +0000] [17063] [DEBUG] Current configuration:
+  proxy_protocol: False
+  worker_connections: 1000
+  statsd_host: None
+  max_requests_jitter: 0
+  post_fork: <function post_fork at 0x7f1059f9ad70>
+  pythonpath: None
+  enable_stdio_inheritance: False
+  worker_class: sync
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  syslog: False
+  syslog_facility: user
+  when_ready: <function when_ready at 0x7f1059f9aaa0>
+  pre_fork: <function pre_fork at 0x7f1059f9ac08>
+  cert_reqs: 0
+  preload_app: False
+  keepalive: 2
+  accesslog: None
+  group: 33
+  graceful_timeout: 30
+  do_handshake_on_connect: False
+  spew: False
+  workers: 1
+  proc_name: None
+  sendfile: None
+  pidfile: None
+  umask: 0
+  on_reload: <function on_reload at 0x7f1059f9a938>
+  pre_exec: <function pre_exec at 0x7f1059fa1398>
+  worker_tmp_dir: None
+  post_worker_init: <function post_worker_init at 0x7f1059f9aed8>
+  limit_request_fields: 100
+  on_exit: <function on_exit at 0x7f1059fa1a28>
+  config: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  proxy_allow_ips: ['127.0.0.1']
+  pre_request: <function pre_request at 0x7f1059fa1500>
+  post_request: <function post_request at 0x7f1059fa15f0>
+  user: 1003
+  forwarded_allow_ips: ['127.0.0.1']
+  worker_int: <function worker_int at 0x7f1059fa10c8>
+  threads: 1
+  max_requests: 0
+  limit_request_line: 4094
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  worker_exit: <function worker_exit at 0x7f1059fa1758>
+  chdir: /home/verna/verna
+  paste: None
+  default_proc_name: wsgi:app
+  errorlog: /home/verna/verna/log/error.log
+  loglevel: debug
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog_prefix: None
+  daemon: False
+  ciphers: TLSv1
+  on_starting: <function on_starting at 0x7f1059f9a7d0>
+  worker_abort: <function worker_abort at 0x7f1059fa1230>
+  bind: ['127.0.0.1:8001']
+  raw_env: []
+  reload: False
+  check_config: False
+  limit_request_field_size: 8190
+  nworkers_changed: <function nworkers_changed at 0x7f1059fa18c0>
+  timeout: 30
+  ca_certs: None
+  django_settings: None
+  tmp_upload_dir: None
+  keyfile: None
+  backlog: 2048
+  logger_class: gunicorn.glogging.Logger
+  statsd_prefix: 
+[2016-02-04 05:25:30 +0000] [17063] [INFO] Starting gunicorn 19.4.5
+[2016-02-04 05:25:30 +0000] [17063] [DEBUG] Arbiter booted
+[2016-02-04 05:25:30 +0000] [17063] [INFO] Listening at: http://127.0.0.1:8001 (17063)
+[2016-02-04 05:25:30 +0000] [17063] [INFO] Using worker: sync
+[2016-02-04 05:25:30 +0000] [17068] [INFO] Booting worker with pid: 17068
+[2016-02-04 05:25:30 +0000] [17063] [DEBUG] 1 workers
+[2016-02-04 05:25:30 +0000] [17068] [ERROR] Exception in worker process:
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+Traceback (most recent call last):
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/arbiter.py", line 515, in spawn_worker
+    worker.init_process()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 122, in init_process
+    self.load_wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/workers/base.py", line 130, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 65, in load
+    return self.load_wsgiapp()
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/app/wsgiapp.py", line 52, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/verna/vernaenv/local/lib/python2.7/site-packages/gunicorn/util.py", line 357, in import_app
+    __import__(module)
+  File "/home/verna/verna/wsgi.py", line 1, in <module>
+    from verna import app
+  File "/home/verna/verna/verna.py", line 1, in <module>
+    from app import app, db, models, bot, Client, Expert
+ImportError: cannot import name Client
+[2016-02-04 05:25:30 +0000] [17068] [INFO] Worker exiting (pid: 17068)
+[2016-02-04 05:25:30 +0000] [17063] [INFO] Shutting down: Master
+[2016-02-04 05:25:30 +0000] [17063] [INFO] Reason: Worker failed to boot.

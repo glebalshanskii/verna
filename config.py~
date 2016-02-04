@@ -1,0 +1,6 @@
+import os
+basedir = os.path.abspath(os.path.dirname(__file__))
+
+SQLALCHEMY_DATABASE_URI = 'postgres://tkpuser:P4tkpuser@localhost/tkpbot'
+SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
+SSL_DIR = os.path.join(basedir, 'ssl')

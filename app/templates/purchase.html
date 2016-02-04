@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block body %}
+<body class="body">
+	<div class="container">
+		<form name="topaypal" action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+			<input type="hidden" name="cmd" value="_xclick">
+			<input type="hidden" name="custom" value="{{ uid }}"/>
+			<input type="hidden" name="business" value="info-facilitator@grad-london.com">
+			<input type="hidden" name="item_name" value="5 min discussion with expert">
+			<input type="hidden" name="item_number" value="0500">
+			<input type="hidden" name="no_shipping" value="1">
+                <input type="hidden" name="amount" value="10">
+                <input type="hidden" name="quantity" value="1">
+			<input type="hidden" name="return" value="http://verna.mobi/paypal_success/">
+			<input type="hidden" name="cancel_return" value="http://verna.mobi/paypal_failure/">
+			<input type="hidden" name="notify_url" value="http://verna.mobi/paypal_ipn/">
+			<input type="submit" value="Subscribe" name="submit" title="PayPal - The safer, easier way to pay online!" class="btn btn-primary">
+		</form>	
+	</div>
+</body>
+{% endblock %}

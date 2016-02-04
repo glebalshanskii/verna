@@ -1,0 +1,132 @@
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:register_client start
+DEBUG:root:register_client start
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:register_client start
+DEBUG:root:telegram user id: 149452067
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:register_client start
+DEBUG:root:telegram user id: 149452067
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:register_client start
+DEBUG:root:telegram user id: 149452067
+DEBUG:root:<module 'app.models' from '/home/verna/verna/app/models.pyc'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:register_client start
+DEBUG:root:telegram user id: 149452067
+DEBUG:root:<module 'app.models' from '/home/verna/verna/app/models.pyc'>
+DEBUG:root:<class 'app.models.Client'>
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=32 HTTP/1.1" 200 533
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=34 HTTP/1.1" 200 533
+DEBUG:root:message from user id: 149452067
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=37 HTTP/1.1" 200 533
+DEBUG:root:message from user id: 149452067
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=39 HTTP/1.1" 200 533
+DEBUG:root:message from user id: 149452067
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=42 HTTP/1.1" 200 533
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 42, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454573047, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=44 HTTP/1.1" 200 533
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Init%21&chat_id=149452067&reply_to_message_id=44 HTTP/1.1" 200 533
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 44, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454573118, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 47, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454573165, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:message /start
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 48, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454573316, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:message /start
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 49, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454578295, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:message /start
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 50, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454578889, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url= HTTP/1.1" 200 61
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"GET /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/setWebhook?url=https%3A%2F%2Fverna.mobi%3A443%2F196208822%3AAAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs%2F HTTP/1.1" 200 57
+DEBUG:root:message /start
+DEBUG:root:message from user id: 149452067
+DEBUG:root:message: {'delete_chat_photo': None, 'new_chat_photo': None, 'text': u'/start', 'sticker': None, 'video': None, 'chat': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'title': None, 'type': u'private', 'id': 149452067}, 'group_chat_created': None, 'forward_date': None, 'left_chat_participant': None, 'location': None, 'photo': None, 'document': None, 'message_id': 51, 'new_chat_participant': None, 'content_type': 'text', 'from_user': {'username': u'JohnHawkyns', 'first_name': u'Gleb', 'last_name': u'Alshanskii', 'id': 149452067}, 'date': 1454579263, 'voice': None, 'reply_to_message': None, 'caption': None, 'contact': None, 'new_chat_title': None, 'audio': None, 'forward_from': None}
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): api.telegram.org
+DEBUG:requests.packages.urllib3.connectionpool:"POST /bot196208822:AAESVQ98Ts9XK5pINUvAXhlXOV2ypCFJDEs/sendMessage?text=Welcome%21&chat_id=149452067&reply_to_message_id=51 HTTP/1.1" 200 536
+DEBUG:root:register_client done
+DEBUG:root:db session init: <sqlalchemy.orm.scoping.scoped_session object at 0x7f6e40027590>
+DEBUG:root:db session init: <sqlalchemy.orm.scoping.scoped_session object at 0x7efc25994610>
+DEBUG:root:db session init: <sqlalchemy.orm.scoping.scoped_session object at 0x7f7e1d76e610>
+DEBUG:root:db session init: <sqlalchemy.orm.scoping.scoped_session object at 0x7f89b3303610>
+DEBUG:root:db session init: <sqlalchemy.orm.scoping.scoped_session object at 0x7f10585ec610>
